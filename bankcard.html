@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bankcard</title>
+    <link rel="stylesheet" href="bankcard.css">
+</head>
+<body>
+
+      <div class="wrapper">
+    <div class="main" id="main">
+      <div class="flip-card" id="flip-card">
+        <div class="flip-card-inner" id="flip-card-inner">
+          <div class="flip-card-front">
+            <h2>visa</h2>
+            <div class="chip">
+              <img src="img/chip1.png" alt="">
+            </div>
+            <input type="text" class="card-number" id="change-number" placeholder="#### #### #### ####">
+
+            <input type="text" class="holder-name" id="holder-name" placeholder="HOLDER NAME">
+
+            <p class="expire-date" id="expire-date">
+              EXPIRE
+            </p>
+            
+            <input type="text" class="month" id="month" placeholder="MM">
+              
+            <input class="year" id="year" placeholder="YY">
+              
+            </input>
+          </div>
+          <div class="flip-card-back">
+            <div class="line">
+
+            </div>
+            <h2 class="cvv">CVV</h2>
+            <input type="text" class="cvv-input" id="cvv-input">
+
+            </input>
+            <h2 class="visa">visa</h2>
+          </div>
+        </div>
+      </div>
+      <div class="holder-div">
+        <p class="card-number1" id="card-number">
+          Card-Number
+        </p>
+        <input type="text" class="number-input" id="number-input"></input>
+        <p class="holder-name1">
+          Holder-Name
+        </p>
+        <input type="text" class="holder-input" id="holder-input">
+        <div class="date">
+          <div class="months">
+            <p class="months-date1">
+              Expiration MM
+            </p>
+            <input type="text" class="months-input" id="months-input">
+          </div>
+          <div class="years">
+            <p class="years-date1">
+              Expiration YY
+            </p>
+            <input type="text" class="years-input" id="years-input">
+          </div>
+          <div class="cvvs">
+            <p class="cvvs-date1">
+              Expiration Cvv
+            </p>
+            <input type="text" class="cvvs-input" id="cvvs-input">
+          </div>
+        </div>
+        <button class="submit" id="submit">Submit</button>
+      </div>
+    </div>
+  
+
+  <div class="loader" id="loader">
+    <div class="box box0">
+      <div></div>
+    </div>
+    <div class="box box1">
+      <div></div>
+    </div>
+    <div class="box box2">
+      <div></div>
+    </div>
+    <div class="box box3">
+      <div></div>
+    </div>
+    <div class="box box4">
+      <div></div>
+    </div>
+    <div class="box box5">
+      <div></div>
+    </div>
+    <div class="box box6">
+      <div></div>
+    </div>
+    <div class="box box7">
+      <div></div>
+    </div>
+    <div class="ground">
+      <div></div>
+    </div>
+  </div>
+</div>
+
+    <script src="bankcard.js"></script>
+</body>
+</html>
